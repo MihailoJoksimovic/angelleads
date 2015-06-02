@@ -1,0 +1,13 @@
+{
+    "name": "mixa/angelleads",
+    "require": {
+        "smarty/smarty": "^3.1",
+        "pimple/pimple": "3.0.0"
+    },
+    "authors": [
+        {
+            "name": "Mihailo Joksimovic",
+            "email": "tinzey@gmail.com"
+        }
+    ]
+}
