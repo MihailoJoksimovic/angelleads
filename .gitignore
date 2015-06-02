@@ -1,3 +1,5 @@
 vendor/
 composer.phar
 .idea
+var/smarty/templates_c/
+var/smarty/cache/
