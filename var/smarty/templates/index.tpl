@@ -186,7 +186,7 @@
             {*</div>*}
             <div class="col-lg-4 col-lg-offset-4 text-center">
                 <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                <p><a href="mailto:feedback@angelleads.com">feedback@angelleads.com</a></p>
+                <p><a href="mailto:hello@angelleads.com">hello@angelleads.com</a></p>
             </div>
         </div>
     </div>
