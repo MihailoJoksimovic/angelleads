@@ -1,45 +1,71 @@
 {include file="common/header.tpl"}
 
-<section id="services">
+<div style="background-image: url('/img/entrepreneur.jpg'); background-position: center; background-size: cover; min-height: 40%; padding-top: 5%;">
+    <h1>Find The Perfect Leads For Your Business</h1>
+    <hr>
+    <p>AngelLeads will help you sell more and find the most quality leads! Just sign up and start selling 10X faster!</p>
+</div>
+
+
+<section id="get-in-touch">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">At Your Service</h2>
-                <hr class="primary">
+                <h2 class="section-heading">Fill out the form below and we will get back to you</h2>
             </div>
         </div>
     </div>
+    <br/>
     <div class="container">
-        <div class="row">
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-diamond wow bounceIn text-primary"></i>
-                    <h3>Premium Leads</h3>
-                    <p class="text-muted">Our leads are premium and highly targeted for your business.</p>
+        <div class="col-lg-6 col-lg-offset-3">
+            <form>
+                <div class="form-group">
+                    <label>First Name</label>
+                    <input required="required" type="text" class="form-control input-lg" placeholder="Enter your first name">
                 </div>
-            </div>
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                    <h3>Ready to Ship</h3>
-                    <p class="text-muted">You can create the best B2B campaigns together with us!</p>
+
+                <div class="form-group">
+                    <label>Last Name</label>
+                    <input required="required" type="text" class="form-control input-lg" placeholder="Enter your last name">
                 </div>
-            </div>
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s"></i>
-                    <h3>Up to Date</h3>
-                    <p class="text-muted">We update leads to keep things fresh.</p>
+
+                <div class="form-group">
+                    <label>Work Email </label>
+                    <input required="required" type="text" class="form-control input-lg" placeholder="Enter your email">
                 </div>
-            </div>
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s"></i>
-                    <h3>Made with Love</h3>
-                    <p class="text-muted">Your success is our success! You will love this service!</p>
+
+                <div class="form-group">
+                    <label>Work Phone Number </label>
+                    <input type="text" class="form-control input-lg" placeholder="Enter your phone number">
                 </div>
-            </div>
+
+                <div class="form-group">
+                    <label>Job Title </label>
+
+                    <select class="form-control input-lg">
+                        <option value="__PLACEHOLDER__">- Please Select -</option>
+                        <option value="VP/Dir. of Sales">VP/Dir. of Sales</option>
+                        <option value="VP/Dir. of Marketing">VP/Dir. of Marketing</option>
+                        <option value="Sales Manager">Sales Manager</option>
+                        <option value="Marketing Manager">Marketing Manager</option>
+                        <option value="Sales Operations">Sales Operations</option>
+                        <option value="Business Intelligence">Business Intelligence</option>
+                        <option value="CEO/Founder">CEO/Founder</option>
+                        <option value="Administrative">Administrative</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Size of your Sales Team (FTE) </label>
+                    <input type="text" class="form-control input-lg" placeholder="Enter email">
+                </div>
+
+
+                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+            </form>
         </div>
+
     </div>
 </section>
 

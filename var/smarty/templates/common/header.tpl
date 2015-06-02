@@ -47,7 +47,7 @@
 <script src="js/jquery.fittext.js"></script>
 <script src="js/wow.min.js"></script>
 
-<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top {if !isset($hide_navbar_affix_class)}affix{/if}">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -70,7 +70,7 @@
                     <a class="page-scroll" href="#services">Services</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#contact">Contact</a>
+                    <a class="page-scroll" href="#contact-us">Contact</a>
                 </li>
             </ul>
         </div>
