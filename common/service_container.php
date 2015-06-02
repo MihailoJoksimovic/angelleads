@@ -4,6 +4,8 @@ $container = new Pimple\Container();
 
 $container['app_root'] = __DIR__ . '/..';
 
+$container['primary_email'] = 'angelleads.project@gmail.com';
+
 $container['smarty'] = function($c) {
     $smarty = new Smarty();
 
